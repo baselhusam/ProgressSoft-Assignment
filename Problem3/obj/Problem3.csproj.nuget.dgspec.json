@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\ProgressSoft_Assignment\\Problem3\\Problem3.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\ProgressSoft_Assignment\\Problem3\\Problem3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\ProgressSoft_Assignment\\Problem3\\Problem3.csproj",
+        "projectName": "Problem3",
+        "projectPath": "D:\\Projects\\ProgressSoft_Assignment\\Problem3\\Problem3.csproj",
+        "packagesPath": "C:\\Users\\Basel\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ProgressSoft_Assignment\\Problem3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Basel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Keras.NET": {
+              "target": "Package",
+              "version": "[3.8.5, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[3.0.0-preview.22621.2, )"
+            },
+            "Microsoft.ML.ImageAnalytics": {
+              "target": "Package",
+              "version": "[3.0.0-preview.22621.2, )"
+            },
+            "Microsoft.ML.OnnxTransformer": {
+              "target": "Package",
+              "version": "[3.0.0-preview.22621.2, )"
+            },
+            "Microsoft.ML.Vision": {
+              "target": "Package",
+              "version": "[3.0.0-preview.22621.2, )"
+            },
+            "SciSharp.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            },
+            "TensorFlow.Keras": {
+              "target": "Package",
+              "version": "[0.6.0, )"
+            },
+            "TensorFlow.NET": {
+              "target": "Package",
+              "version": "[0.100.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
