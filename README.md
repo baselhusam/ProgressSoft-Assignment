@@ -57,6 +57,14 @@ For more information about each problem, please refer to their respective **READ
 
 <br>
 
+# Google Drive Link for all the Files 💥
+
+<br> 
+
+A Google Drive link, which has all the files, the models, the documentation, and everything. Here is the [Link](https://drive.google.com/drive/folders/1sUQiCIhAXbMC-AFWDtSE5pRkNvo2XytQ)
+
+<br> 
+
 # FAQs ❓
 
 <br>
