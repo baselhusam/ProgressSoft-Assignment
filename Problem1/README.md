@@ -57,8 +57,8 @@ image using a pre-trained **Haar cascade classifier**.
 <br>
 
 I build a **YOLO** model and train it from scratch on an annotated dataset from Roboflow the link for it from
-here. I made the training process on Colab because they have better GPUs. The link for the training
-notebook is here. (Please note that I connected my Google Drive account the Colab so I can give the
+[here](https://universe.roboflow.com/mohamed-traore-2ekkp/face-detection-mik1i). I made the training process on Colab because they have better GPUs. The link for the training
+notebook is [here](https://colab.research.google.com/drive/1MUexEIOhBloFzM0VO8XE1ovz4vgKiHI_?usp=sharing). (Please note that I connected my Google Drive account the Colab so I can give the
 model the path for the images directly without the need to upload all the files into Google Colab)
 
 After training the model on Google Colab, I downloaded the trained weights and used them to make
@@ -127,7 +127,7 @@ The script was developed using Python version **3.9.13**
 
 <br>
 
-1. Download the Face Detection dataset from roboflow and extract it.
+1. Download the Face Detection dataset from [roboflow](https://universe.roboflow.com/mohamed-traore-2ekkp/face-detection-mik1i) and extract it.
 2. Install the required packages by running `pip install -r requirements.txt`.
 3. To blur a specific image using the **Haar cascade classifier** write the following command
     `python FB_CascadeClassifier.py <image path>`
