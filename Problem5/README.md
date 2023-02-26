@@ -48,6 +48,8 @@ training dataset and the final **20%** was the test dataset. This give that we h
 training data, and **252** instances for the testing data. This means that the data is **1259** instances (stock
 prices).
 
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture10.png)
+
 Then, I created a function called
 **_create_features_** and take data frame as
 input. This function creates features for
@@ -61,28 +63,24 @@ through some plots of the data. After this
 step, I split the data into features, and
 the target (X, y) just like it is a supervised
 learning approach.
+<br>
 
-```
-Train / Test Split for the Data
-```
-```
-Stock Prices by Year
-```
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture11.png)
+
 
 After that, build the model and train it on the data. The model I used is an **_XGBoost Regressor_** with a
 1,000 estimator, 0.01 learning rate, max depth of 2, and evaluation metric as ‘MAE’ (Mean Absolute
 Error). Then, evaluate the model with the MAE (Mean Absolute Error), and RMSE (Root Mean Squared
 Error).
 
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture12.png)
+
+
 Finally, plot the feature importances for the model and horizontal bar chart, and we conclude from it
 that the **_year_** feature is the most important feature for the model.
 
-```
-Model Performance on the Test Data
-```
-```
-Feature Importances for the Model
-```
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture13.png)
+
 
 <br>
 
@@ -105,6 +103,9 @@ will not give us a real evaluation number in the evaluation phase.
 I used the window method because it is a common technique to preprocess time series data for deep
 learning models.
 
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture14.png)
+
+
 After that, I used a deep learning model with two LSTM layers and multiple Dense layers to train the
 model on the training set and then tested it on the testing set. I used an LSTM-based model because
 LSTMs are known to perform well on time series data and can capture the temporal dependencies in the
@@ -118,17 +119,18 @@ happened with the
 pick the best value of the learning rate and
 train the model with this value.
 
-```
-Train / Test Split for the Data on the DL Model
-```
-```
-Learning Rate with the Loss
-```
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture15.png)
+
 
 I chose MAE as the loss function, and the RMSE as the metrics. I choose them because they are popular
 metrics in time-series problems, which can show the model performance in a good way.
 
+
 Then, I made predictions on the train, and the test data, and plot the results.
+
+
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture16.png)
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture17.png)
 
 Clearly, we can see that the model is overfitted on the training data, I tried the change the model
 architectures multiple times, but I couldn’t prevent the overfitting, I tried to change some values for
