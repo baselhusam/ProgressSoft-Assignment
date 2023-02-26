@@ -29,7 +29,7 @@ then shows the Statistics for the image.
 <br>
 
 The conversion of the RGB color of a pixel to its corresponding grayscale value through the mathematical
-equation from MathWorks. The equation is **0.2989 * R + 0.5870 * G + 0.1140 * B** (The R, G, and B
+equation from [MathWorks](https://www.mathworks.com/help/matlab/ref/rgb2gray.html). The equation is **0.2989 * R + 0.5870 * G + 0.1140 * B** (The R, G, and B
 correspond to the RGB channels in the image). The mean, variance, and standard deviation are
 commonly used statistical measures that provide insight into the distribution of gray values in an image.
 The minimum and maximum gray values provide information on the range of gray values in the image.
@@ -66,8 +66,7 @@ Then the program will output the statistics for the image, and it will show the:
 
 # Example:
 
-<br>
-
+![img](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture9.jpg)
 ```
 Mean: 142.
 Standard deviation: 37.
