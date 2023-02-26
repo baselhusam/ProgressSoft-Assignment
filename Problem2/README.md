@@ -32,22 +32,25 @@ python files to showcase the result and have all the codes in one place.
 
 <br>
 
+![pred](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture7.png)
+![pred](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture8.png)
+
+This is the prediction for both models.
+
+
+<br>
+
 # Dataset:
 
 <br>
 
-The dataset used for training the models is the Face Mask Detection dataset from Kaggle. The dataset
+The dataset used for training the models is the Face Mask Detection dataset from [Kaggle](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset). The dataset
 consists of approximately 12,000 images, including 6,000 images with people wearing masks and 6,
 images with people not wearing masks.
 
 The dataset contains 3 files, train, validation, and test file. The training file has 10K images (5K with mask,
 and 5K without mask), the validation file has 800 images (400 with mask, and 400 without mask), and
 the testing file has 800 images (400 with mask, and 400 without mask).
-
-```
-Figure 1 - ResNet50 Figure 2 - ResNet
-```
-_Figure 1 - TF model_ (^) _Figure 2 - TF model_
 
 
 <br>
@@ -149,7 +152,7 @@ The script was developed using Python version **3.9.13**
 
 <br>
 
-1. Download the Face Mask Detection dataset from Kaggle and extract it to a folder.
+1. Download the Face Mask Detection dataset from [Kaggle](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset) and extract it to a folder.
 2. Install the required packages by running `pip install -r requirements.txt`
 3. To train and save the ResNet50 model, run the command `python resnet_train.py <path to the
     training data> <path to the validation data> <number of epochs> <saved model name>`
