@@ -45,13 +45,13 @@ In the **FB_CascadeClassifier.py** file, I have written a function called **blur
 The function **blur_face()** takes an image path and applies Gaussian blur to the faces detected in the
 image using a pre-trained **Haar cascade classifier**.
 
-```
-Figure 1 - Before Blurring Figure^2 -^ After Blurring (Cascade Classifier)^
-```
-```
-Figure 3 - Before Blurring Figure 4 - After Blurring (Cascade Classifier)
-```
+
+![before blurring](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture2.jpg)
+![before blurring](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture4.jpg)
+
+
 <br>
+
 ## YOLO v8 (train the model from scratch) :
 
 <br>
@@ -70,12 +70,10 @@ the YOLO (You Only Look Once) model. It is a powerful algorithm that makes many 
 while training to make better performance, and in this task, we use the **nano** model which is the smallest
 model of the other YOLO v8 models.
 
-```
-Figure 1 - Before Blurring Figure 2 - After Blurring (YOLO)
-```
-```
-Figure 2 - Before Blurring Figure^1 -^ After Blurring (YOLO)^
-```
+![before blurring](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture5.jpg)
+![before blurring](https://github.com/baselhusam/ProgressSoft-Assignment/blob/main/images/Picture6.jpg)
+
+
 <br>
 
 # Dataset:
